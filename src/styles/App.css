@@ -1,0 +1,18 @@
+* {
+  user-select: none;
+}
+
+#root {
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+}

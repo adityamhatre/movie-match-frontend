@@ -1,0 +1,5 @@
+.card-stack {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}

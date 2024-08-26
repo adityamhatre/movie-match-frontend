@@ -1,0 +1,61 @@
+.tinder-card {
+  position: absolute;
+}
+
+.card {
+  display: flex;
+  border-radius: 2rem;
+  width: 31rem;
+  height: 46rem;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: cover;
+}
+
+/* Mobile devices (320px - 480px) */
+@media (max-width: 480px) {
+  .card {
+    width: 20rem;
+    height: 30rem;
+  }
+}
+
+/* iPads, Tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .card {
+    width: 24rem;
+    height: 36rem;
+  }
+}
+
+/* Small screens, laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card {
+    width: 28rem;
+    height: 42rem;
+  }
+}
+
+/* Desktops, large screens (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .card {
+    width: 31rem;
+    height: 46rem;
+  }
+}
+
+/* Extra large screens, TV (1201px and more) */
+@media (min-width: 1201px) {
+  .card {
+    width: 35rem;
+    height: 50rem;
+  }
+}
+
+.card-info-text {
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: rgba(245, 245, 220, 0.8);
+  border-radius: 0rem 0rem 2rem 2rem;
+}
